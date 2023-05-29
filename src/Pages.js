@@ -136,7 +136,7 @@ const HomePage = (props) => {
       <div className='board'>
         <GameBoard onTimeUpdate={onTimeUpdate} onFailsUpdate={updateFails} onCounterUpdate={updateCounter} counter={counter} canFlip={game} rows={rows} cols={cols} pairs={nPairs} shuffleArray={shuffleArray} />
       </div>
-      <center><div className='copy'>Made with ❤ by Igor Pontes.</div></center>
+      <center><div className='copy'>Made with ❤ by Skobman.</div></center>
       
     </Container>
     );
